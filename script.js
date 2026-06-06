@@ -1,4 +1,6 @@
-// --- APPLICATION BOOTLOADER & PRELOADER KILLER ---
+document.addEventListener('DOMContentLoaded', () => {
+
+    // --- APPLICATION BOOTLOADER & PRELOADER KILLER ---
     const preloader = document.querySelector('.preloader');
     window.addEventListener('load', () => {
         setTimeout(() => {
