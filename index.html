@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Premium 3D Portfolio of Kamal Verma - Full Stack Web Developer & UI/UX Architect.">
+    <title>Kamal Verma | Premium 3D Full Stack Developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="custom-cursor"></div>
+    <div class="custom-cursor-dot"></div>
+
+    <div class="preloader">
+        <div class="loader-box">
+            <div class="loader-cube"></div>
+            <span class="loader-text">KAMAL VERMA</span>
+        </div>
+    </div>
+
+    <div class="ambient-glow glow-blue"></div>
+    <div class="ambient-glow glow-purple"></div>
+    <div id="particles-container"></div>
+
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">KV<span class="accent-dot">.</span></a>
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#testimonials" class="nav-link">Reviews</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <a href="#contact" class="btn btn-secondary nav-btn">Let's Build</a>
+                <button class="mobile-toggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-info scroll-reveal">
+                    <div class="badge"><span>⚡ Open for Global Remote Roles</span></div>
+                    <h1 class="hero-title">Hi, I'm <span class="text-gradient">Kamal Verma</span></h1>
+                    <h2 class="hero-subtitle">Full Stack Developer & 3D UI Architect</h2>
+                    <p class="hero-typing-container">Specialized in <span class="typing-text" id="typing-element"></span><span class="typed-cursor">|</span></p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Hire Me <i class="fa-solid fa-bolt"></i></a>
+                        <a href="#" class="btn btn-secondary">Download Resume <i class="fa-solid fa-arrow-down"></i></a>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank"><i class="fa-brands fa-github"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="mailto:contact@kamalverma.com"><i class="fa-solid fa-envelope"></i></a>
+                    </div>
+                </div>
+                
+                <div class="hero-display scroll-reveal">
+                    <div class="developer-3d-card glass-card" id="tilt-card">
+                        <div class="card-glow"></div>
+                        <div class="code-window-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="window-title">kamal_verma.json</span>
+                        </div>
+                        <div class="card-avatar-box">
+                            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=500&q=80" alt="Kamal Verma Profile" class="avatar-img">
+                        </div>
+                        <pre class="code-render"><code><span class="keyword">const</span> core = {
+  stack: <span class="string">'MERN & NextJS'</span>,
+  ux3D: <span class="boolean">true</span>,
+  speed: <span class="string">'99+ Lighthouse'</span>
+};</code></pre>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="sub-title">// 01 ARCHITECTURE</span>
+                    <h2 class="section-title">The Developer Behind The Code</h2>
+                </div>
+                <div class="about-grid">
+                    <div class="about-image-wrapper scroll-reveal">
+                        <div class="glass-card 3d-depth-card">
+                            <img src="https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=800&q=80" alt="Abstract 3D Art" class="about-fluid-img">
+                        </div>
+                    </div>
+                    <div class="about-content scroll-reveal">
+                        <h3 class="about-heading">Fusing high-performance infrastructure with cutting-edge 3D aesthetics.</h3>
+                        <p class="about-text">I build production-ready digital architectures that don't just look luxury but function with blazing speeds. Every component, line of code, and layout animation is tailored to create high-converting experiences.</p>
+                        
+                        <div class="timeline">
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="timeline-title">Lead Full Stack Developer <span class="timeline-date">2024 - 2026</span></h4>
+                                <p class="timeline-desc">Architecting robust multi-tenant systems using Next.js and secure cloud architectures.</p>
+                            </div>
+                            <div class="timeline-item">
+                                <div class="timeline-dot"></div>
+                                <h4 class="timeline-title">UI/UX Solutions Engineer <span class="timeline-date">2023 - 2024</span></h4>
+                                <p class="timeline-desc">Engineered interactive micro-frontends and immersive motion systems for tech companies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="stats-grid section-padding-top">
+                    <div class="stat-card glass-card scroll-reveal">
+                        <div class="stat-3d-icon"><i class="fa-solid fa-cubes"></i></div>
+                        <h3 class="stat-number" data-target="50">0</h3>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card glass-card scroll-reveal">
+                        <div class="stat-3d-icon"><i class="fa-solid fa-heart"></i></div>
+                        <h3 class="stat-number" data-target="25">0</h3>
+                        <p class="stat-label">Happy Clients</p>
+                    </div>
+                    <div class="stat-card glass-card scroll-reveal">
+                        <div class="stat-3d-icon"><i class="fa-solid fa-calendar-check"></i></div>
+                        <h3 class="stat-number" data-target="3">0</h3>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                    <div class="stat-card glass-card scroll-reveal">
+                        <div class="stat-3d-icon"><i class="fa-solid fa-star"></i></div>
+                        <h3 class="stat-number" data-target="100">0</h3>
+                        <p class="stat-label">Satisfaction Rate %</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills-section section-padding">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="sub-title">// 02 CAPABILITIES</span>
+                    <h2 class="section-title">Technical Matrix</h2>
+                </div>
+                <div class="skills-grid">
+                    <div class="skills-category glass-card scroll-reveal">
+                        <h3 class="category-title"><i class="fa-solid fa-layer-group text-gradient"></i> Frontend Systems</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>React.js / Next.js</span><span class="skill-percentage">95%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="95%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Tailwind CSS & SASS</span><span class="skill-percentage">92%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="92%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>JavaScript (ES6+)</span><span class="skill-percentage">96%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="96%"></div></div>
+                        </div>
+                    </div>
+                    <div class="skills-category glass-card scroll-reveal">
+                        <h3 class="category-title"><i class="fa-solid fa-database text-gradient"></i> Backend & DB</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Node.js / Express</span><span class="skill-percentage">88%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="88%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>MongoDB / MySQL</span><span class="skill-percentage">85%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="85%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>PHP Systems</span><span class="skill-percentage">80%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="80%"></div></div>
+                        </div>
+                    </div>
+                    <div class="skills-category glass-card scroll-reveal">
+                        <h3 class="category-title"><i class="fa-solid fa-wand-magic-sparkles text-gradient"></i> Engineering Tools</h3>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Git / GitHub Pipeline</span><span class="skill-percentage">94%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="94%"></div></div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info"><span>Figma UX Prototyping</span><span class="skill-percentage">90%</span></div>
+                            <div class="progress-bar"><div class="progress" data-width="90%"></div></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services-section section-padding">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="sub-title">// 03 WORK SOLUTIONS</span>
+                    <h2 class="section-title">Premium Services</h2>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card glass-card scroll-reveal">
+                        <div class="service-icon-box"><i class="fa-solid fa-code"></i></div>
+                        <h3>Website Development</h3>
+                        <p>Fully bespoke, modular web solutions engineered with supreme speed optimizations.</p>
+                    </div>
+                    <div class="service-card glass-card scroll-reveal">
+                        <div class="service-icon-box"><i class="fa-solid fa-bezier-curve"></i></div>
+                        <h3>UI/UX Layout Design</h3>
+                        <p>Immersive layout designs built meticulously via quantitative conversion research parameters.</p>
+                    </div>
+                    <div class="service-card glass-card scroll-reveal">
+                        <div class="service-icon-box"><i class="fa-solid fa-store"></i></div>
+                        <h3>E-Commerce Web Apps</h3>
+                        <p>High-end digital storefronts configured for streamlined consumer ordering mechanics.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="projects-section section-padding">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="sub-title">// 04 CRAFTSMANSHIP</span>
+                    <h2 class="section-title">Selected Productions</h2>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card glass-card scroll-reveal">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Project" class="project-img">
+                            <div class="project-blur-layer"></div>
+                        </div>
+                        <div class="project-details">
+                            <h3>Quantum E-Commerce</h3>
+                            <p>Next-gen dynamic shopping ecosystem optimized for multi-tenant deployments.</p>
+                            <div class="project-tech-tags"><span>Next.js</span><span>MongoDB</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-sm btn-secondary"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card glass-card scroll-reveal">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?auto=format&fit=crop&w=600&q=80" alt="Portfolio Project" class="project-img">
+                            <div class="project-blur-layer"></div>
+                        </div>
+                        <div class="project-details">
+                            <h3>3D Interactive Portfolio</h3>
+                            <p>An elite, hardware-accelerated portfolio system showcasing luxury micro-frontends.</p>
+                            <div class="project-tech-tags"><span>HTML5</span><span>GSAP Docs</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-sm btn-secondary"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card glass-card scroll-reveal">
+                        <div class="project-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=600&q=80" alt="Admin Dashboard" class="project-img">
+                            <div class="project-blur-layer"></div>
+                        </div>
+                        <div class="project-details">
+                            <h3>Nebula Admin Grid</h3>
+                            <p>High-end corporate metrics monitor featuring advanced vector analytics configurations.</p>
+                            <div class="project-tech-tags"><span>React.js</span><span>Node.js</span></div>
+                            <div class="project-links">
+                                <a href="#" class="btn btn-sm btn-primary">Live Demo</a>
+                                <a href="#" class="btn btn-sm btn-secondary"><i class="fa-brands fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="testimonials" class="testimonials-section section-padding">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="sub-title">// 05 VERDICT</span>
+                    <h2 class="section-title">Trusted Recommendations</h2>
+                </div>
+                <div class="testimonials-container scroll-reveal">
+                    <div class="testimonial-card glass-card">
+                        <p class="testimonial-quote">"Working with Kamal Verma was an outstanding experience. His focus on performance metrics and exceptional 3D UI designs brought massive user value to our software rollout."</p>
+                        <div class="reviewer-meta">
+                            <h4>Marcus Sterling</h4>
+                            <span>Product Head, Apex Labs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header scroll-reveal">
+                    <span class="sub-title">// 06 PORTAL CONNECT</span>
+                    <h2 class="section-title">Initiate Transmission</h2>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-info scroll-reveal">
+                        <h3>Let's create something unforgettable.</h3>
+                        <p>Drop a transmission message to map out your digital requirements.</p>
+                        <div class="meta-links">
+                            <p><i class="fa-solid fa-envelope text-gradient"></i> contact@kamalverma.com</p>
+                            <p><i class="fa-solid fa-location-dot text-gradient"></i> jaipur, rajasthan</p>
+                        </div>
+                    </div>
+                    <div class="contact-form-wrapper glass-card scroll-reveal">
+                        <form id="contact-form" onsubmit="event.preventDefault();">
+                            <div class="input-row">
+                                <input type="text" placeholder="Your Name" required>
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                            <input type="text" placeholder="Subject Target" required>
+                            <textarea rows="5" placeholder="Project Matrix Brief..." required></textarea>
+                            <button type="submit" class="btn btn-primary btn-block">Send Signal <i class="fa-solid fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-box">
+            <a href="#" class="footer-logo">KAMAL VERMA<span class="accent-dot">.</span></a>
+            <p class="footer-desc">&copy; 2026 Kamal Verma. Crafted with pure high-fidelity code bases.</p>
+        </div>
+    </footer>
+
+    <button class="back-to-top"><i class="fa-solid fa-chevron-up"></i></button>
+
+    <script src="script.js"></script>
+</body>
+</html>
